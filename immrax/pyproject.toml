@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project]
+name = "immrax"
+version = "0.1.0"
+dependencies = [
+    "jax<0.5",
+    "jaxlib<0.5",
+    "scipy",
+    "tqdm",
+    "shapely",
+    "matplotlib",
+    "tabulate",
+    "sympy",
+    "sympy2jax",
+    "jaxtyping",
+    "diffrax",
+    "equinox",
+    "immutabledict",
+    "ipykernel",
+    "ipympl",
+    "pypoman",
+    # "jax_verify@git+https://github.com/Akash-Harapanahalli/jax_verify.git",
+]
